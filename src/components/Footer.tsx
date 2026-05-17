@@ -11,7 +11,7 @@ export default function Footer() {
             <img
               src="/full_m_logo.png"
               alt="Primelink Marketing Solution LLC"
-              width={180}
+              width={200}
               height={48}
               className="h-12 w-auto object-contain"
             />
@@ -24,18 +24,19 @@ export default function Footer() {
         <div id="footer-services">
           <div className="text-label-bold text-on-surface mb-4 uppercase tracking-wider text-sm">Services</div>
           <ul className="space-y-3">
-            <li><Link to="/services" className="text-body-md text-on-surface-variant hover:text-primary transition-colors">Strategy</Link></li>
-            <li><Link to="/services" className="text-body-md text-on-surface-variant hover:text-primary transition-colors">Digital Advertising</Link></li>
-            <li><Link to="/services" className="text-body-md text-on-surface-variant hover:text-primary transition-colors">Brand Identity</Link></li>
+            <li><Link to="/services" className="text-body-md text-on-surface-variant hover:text-primary transition-colors">Call Centre Support</Link></li>
+            <li><Link to="/services" className="text-body-md text-on-surface-variant hover:text-primary transition-colors">Pay Per Click</Link></li>
+            <li><Link to="/services" className="text-body-md text-on-surface-variant hover:text-primary transition-colors">Lead Generation</Link></li>
+            <li><Link to="/services" className="text-body-md text-on-surface-variant hover:text-primary transition-colors">Social Media</Link></li>
           </ul>
         </div>
 
         <div id="footer-company">
           <div className="text-label-bold text-on-surface mb-4 uppercase tracking-wider text-sm">Company</div>
           <ul className="space-y-3">
-            <li><Link to="/about" className="text-body-md text-on-surface-variant hover:text-primary transition-colors">Careers</Link></li>
-            <li><Link to="/about" className="text-body-md text-on-surface-variant hover:text-primary transition-colors">Privacy Policy</Link></li>
-            <li><Link to="/about" className="text-body-md text-on-surface-variant hover:text-primary transition-colors">Terms of Service</Link></li>
+            <li><Link to="/about" className="text-body-md text-on-surface-variant hover:text-primary transition-colors">About Us</Link></li>
+            <li><Link to="/contact" className="text-body-md text-on-surface-variant hover:text-primary transition-colors">Contact</Link></li>
+            <li><Link to="/privacy-policy" className="text-body-md text-on-surface-variant hover:text-primary transition-colors">Privacy Policy</Link></li>
           </ul>
         </div>
 
@@ -44,8 +45,8 @@ export default function Footer() {
           <address className="text-body-md text-on-surface-variant not-italic space-y-1">
             <p>1200 Enterprise Way, Suite 500</p>
             <p>Chicago, IL 60601</p>
-            <a href="mailto:contact@primelinkmktg.com" className="hover:text-primary transition-colors block mt-2">
-              contact@primelinkmktg.com
+            <a href="mailto:inquiry@primelinkmktg.com" className="hover:text-primary transition-colors block mt-2">
+              inquiry@primelinkmktg.com
             </a>
           </address>
         </div>

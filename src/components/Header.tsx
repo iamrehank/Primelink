@@ -31,14 +31,14 @@ export default function Header() {
             alt="Primelink Marketing Solution LLC"
             width={160}
             height={40}
-            className="hidden md:block h-10 w-auto object-contain"
+            className="hidden md:block h-15 w-auto object-contain"
           />
           <img
             src="/nav_logo.png"
             alt="Primelink Marketing Solution LLC"
             width={40}
             height={40}
-            className="block md:hidden h-10 w-auto object-contain"
+            className="block md:hidden h-15 w-auto object-contain"
           />
         </Link>
 

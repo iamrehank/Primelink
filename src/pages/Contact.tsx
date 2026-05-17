@@ -39,8 +39,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-bold text-sm mb-1">Email Us</p>
-                    <a href="mailto:contact@primelinkmktg.com" className="text-on-surface-variant text-sm hover:text-primary transition-colors block">contact@primelinkmktg.com</a>
-                    <a href="mailto:careers@primelinkmktg.com" className="text-on-surface-variant text-sm hover:text-primary transition-colors block">careers@primelinkmktg.com</a>
+                    <a href="mailto:inquiry@primelinkmktg.com" className="text-on-surface-variant text-sm hover:text-primary transition-colors block">inquiry@primelinkmktg.com</a>
                   </div>
                 </div>
 
@@ -142,7 +141,9 @@ export default function Contact() {
                 </button>
 
                 <p className="text-xs text-center text-on-surface-variant px-2">
-                  By submitting this form, you agree to our Terms of Service and Privacy Policy. Your data is protected by institutional-grade encryption.
+                  By submitting this form, you agree to our{' '}
+                  <a href="/privacy-policy" className="underline hover:text-primary transition-colors">Privacy Policy</a>.
+                  Your data is protected by institutional-grade encryption.
                 </p>
               </form>
             </div>

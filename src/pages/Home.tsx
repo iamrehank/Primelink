@@ -1,17 +1,10 @@
 import { motion } from 'motion/react';
-import { Network, Shield, TrendingUp, Globe, Users, Clock } from 'lucide-react';
+import { Network, Shield, TrendingUp } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
 export default function Home() {
   const navigate = useNavigate();
-
-  const stats = [
-    { label: 'Global Offices', value: '12+', icon: Globe },
-    { label: 'Campaigns', value: '450+', icon: TrendingUp },
-    { label: 'Client Retention', value: '98%', icon: Users },
-    { label: 'Support', value: '24/7', icon: Clock },
-  ];
 
   const features = [
     {
@@ -117,35 +110,77 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Global Reach */}
-        <section className="py-16 md:py-24 bg-white overflow-hidden" id="home-global" aria-labelledby="global-heading">
+        {/* What We Do — creative alternating feature strip */}
+        <section className="py-16 md:py-24 bg-white overflow-hidden" id="home-what-we-do">
           <div className="max-w-[1280px] mx-auto px-4 md:px-8">
-            <div className="flex flex-col md:flex-row gap-12 md:gap-16 items-center">
-              <div className="w-full md:w-1/2">
-                <h2 id="global-heading" className="text-on-surface mb-4 text-2xl md:text-3xl font-bold">Global Reach, Local Expertise</h2>
-                <p className="text-base text-on-surface-variant mb-8">
-                  With strategic hubs across three continents, we provide around-the-clock excellence for brands that operate without borders.
-                </p>
-                <div className="grid grid-cols-2 gap-5">
-                  {stats.map((stat, idx) => (
-                    <div key={idx} className="border-l-4 border-primary pl-4">
-                      <div className="text-2xl md:text-3xl font-bold text-primary mb-0.5">{stat.value}</div>
-                      <div className="text-xs font-bold text-on-surface-variant uppercase tracking-wide">{stat.label}</div>
-                    </div>
-                  ))}
+            <div className="text-center mb-14">
+              <span className="text-primary text-xs font-bold uppercase tracking-widest mb-3 block">What We Do</span>
+              <h2 className="text-on-surface text-2xl md:text-3xl font-bold mb-3">Built for Results, Designed for Scale</h2>
+              <p className="text-on-surface-variant text-sm md:text-base max-w-xl mx-auto">
+                Every solution we deliver is engineered to drive measurable outcomes — from the first touchpoint to long-term retention.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Large feature card */}
+              <motion.div
+                initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }} transition={{ duration: 0.5 }}
+                className="relative rounded-2xl overflow-hidden md:row-span-2 min-h-[320px] md:min-h-0"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=900"
+                  alt="Team collaborating on strategy"
+                  className="absolute inset-0 w-full h-full object-cover"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent" />
+                <div className="absolute bottom-0 left-0 p-8">
+                  <span className="text-white/70 text-xs font-bold uppercase tracking-widest mb-2 block">Our Approach</span>
+                  <h3 className="text-white text-xl md:text-2xl font-extrabold mb-2">People-First, Data-Driven</h3>
+                  <p className="text-white/80 text-sm leading-relaxed max-w-sm">
+                    We combine human expertise with intelligent systems to deliver BPO and marketing solutions that consistently outperform industry benchmarks.
+                  </p>
                 </div>
-              </div>
-              <div className="w-full md:w-1/2">
-                <div className="bg-surface border border-outline-variant rounded-xl overflow-hidden relative">
-                  <img
-                    alt="Aerial satellite view of Earth showing global network connections"
-                    className="w-full h-64 md:h-96 object-cover opacity-80"
-                    src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1000"
-                    referrerPolicy="no-referrer" loading="lazy" width="1000" height="384"
-                  />
-                  <div className="absolute inset-0 bg-primary/5 pointer-events-none" />
+              </motion.div>
+
+              {/* Top-right card */}
+              <motion.div
+                initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.1 }}
+                className="relative rounded-2xl overflow-hidden min-h-[200px]"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=800"
+                  alt="Digital marketing team at work"
+                  className="absolute inset-0 w-full h-full object-cover"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                <div className="absolute bottom-0 left-0 p-6">
+                  <h3 className="text-white text-lg font-extrabold mb-1">Digital Marketing</h3>
+                  <p className="text-white/75 text-sm">PPC, Social Media & Lead Generation that converts.</p>
                 </div>
-              </div>
+              </motion.div>
+
+              {/* Bottom-right card */}
+              <motion.div
+                initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }}
+                className="relative rounded-2xl overflow-hidden min-h-[200px]"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800"
+                  alt="Call centre support team"
+                  className="absolute inset-0 w-full h-full object-cover"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                <div className="absolute bottom-0 left-0 p-6">
+                  <h3 className="text-white text-lg font-extrabold mb-1">BPO & Call Centre</h3>
+                  <p className="text-white/75 text-sm">24/7 US-based support with 90%+ quality compliance.</p>
+                </div>
+              </motion.div>
             </div>
           </div>
         </section>
