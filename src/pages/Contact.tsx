@@ -8,10 +8,10 @@ export default function Contact() {
       <Helmet>
         <title>Contact Us | Primelink Marketing Solution LLC</title>
         <meta name="description" content="Get in touch with Primelink Marketing Solution LLC. Reach our global team in Chicago, London, Singapore, and Dubai for marketing and BPO inquiries." />
-        <link rel="canonical" href="https://www.primelinkmktg.com/contact" />
+        <link rel="canonical" href="https://www.primelinkmkt.com/contact" />
         <meta property="og:title" content="Contact Us | Primelink Marketing Solution LLC" />
         <meta property="og:description" content="Connect with our global team. Strategic partners will respond within 24 business hours." />
-        <meta property="og:url" content="https://www.primelinkmktg.com/contact" />
+        <meta property="og:url" content="https://www.primelinkmkt.com/contact" />
       </Helmet>
 
       <motion.div
@@ -39,7 +39,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-bold text-sm mb-1">Email Us</p>
-                    <a href="mailto:inquiry@primelinkmktg.com" className="text-on-surface-variant text-sm hover:text-primary transition-colors block">inquiry@primelinkmktg.com</a>
+                    <a href="mailto:inquiry@primelinkmkt.com" className="text-on-surface-variant text-sm hover:text-primary transition-colors block">inquiry@primelinkmkt.com</a>
                   </div>
                 </div>
 

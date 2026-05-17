@@ -45,8 +45,8 @@ export default function Footer() {
           <address className="text-body-md text-on-surface-variant not-italic space-y-1">
             <p>1200 Enterprise Way, Suite 500</p>
             <p>Chicago, IL 60601</p>
-            <a href="mailto:inquiry@primelinkmktg.com" className="hover:text-primary transition-colors block mt-2">
-              inquiry@primelinkmktg.com
+            <a href="mailto:inquiry@primelinkmkt.com" className="hover:text-primary transition-colors block mt-2">
+              inquiry@primelinkmkt.com
             </a>
           </address>
         </div>

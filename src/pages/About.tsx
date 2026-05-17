@@ -13,10 +13,10 @@ export default function About() {
       <Helmet>
         <title>About Us | Primelink Marketing Solution LLC</title>
         <meta name="description" content="Learn about Primelink Marketing Solution LLC — a global leader in integrated marketing and BPO solutions with offices in Chicago, London, and Singapore." />
-        <link rel="canonical" href="https://www.primelinkmktg.com/about" />
+        <link rel="canonical" href="https://www.primelinkmkt.com/about" />
         <meta property="og:title" content="About Us | Primelink Marketing Solution LLC" />
         <meta property="og:description" content="Founded to bridge legacy business models with the digital-first economy. 10+ years of excellence in global marketing and BPO." />
-        <meta property="og:url" content="https://www.primelinkmktg.com/about" />
+        <meta property="og:url" content="https://www.primelinkmkt.com/about" />
       </Helmet>
 
       <motion.div

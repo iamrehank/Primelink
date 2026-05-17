@@ -47,10 +47,10 @@ export default function Services() {
       <Helmet>
         <title>Our Services | Primelink Marketing Solution LLC</title>
         <meta name="description" content="Primebridge delivers high-fidelity BPO and digital marketing strategies — Call Centre Support, Customer Service, PPC, Lead Generation, Social Media, and Inbound Traffic." />
-        <link rel="canonical" href="https://www.primelinkmktg.com/services" />
+        <link rel="canonical" href="https://www.primelinkmkt.com/services" />
         <meta property="og:title" content="Our Services | Primelink Marketing Solution LLC" />
         <meta property="og:description" content="Strategic BPO and digital marketing solutions: Call Centre Support, Customer Service, PPC, Lead Generation, Social Media, and Inbound Traffic." />
-        <meta property="og:url" content="https://www.primelinkmktg.com/services" />
+        <meta property="og:url" content="https://www.primelinkmkt.com/services" />
       </Helmet>
 
       <motion.div

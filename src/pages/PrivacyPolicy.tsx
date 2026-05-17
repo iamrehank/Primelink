@@ -70,7 +70,7 @@ Primelink Marketing Solution LLC
 1200 Enterprise Way, Suite 500
 Chicago, IL 60601
 
-Email: inquiry@primelinkmktg.com
+Email: inquiry@primelinkmkt.com
 Phone: +1 (800) 555-0199`,
   },
 ];
@@ -81,7 +81,7 @@ export default function PrivacyPolicy() {
       <Helmet>
         <title>Privacy Policy | Primelink Marketing Solution LLC</title>
         <meta name="description" content="Read the Privacy Policy of Primelink Marketing Solution LLC. Learn how we collect, use, and protect your personal information." />
-        <link rel="canonical" href="https://www.primelinkmktg.com/privacy-policy" />
+        <link rel="canonical" href="https://www.primelinkmkt.com/privacy-policy" />
         <meta name="robots" content="noindex, follow" />
       </Helmet>
 

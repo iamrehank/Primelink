@@ -29,10 +29,10 @@ export default function Home() {
       <Helmet>
         <title>Primelink Marketing Solution LLC | Global BPO & Marketing Agency</title>
         <meta name="description" content="Primelink Marketing Solution LLC delivers institutional-grade integrated marketing and BPO solutions across 12+ global offices. 450+ campaigns, 98% client retention." />
-        <link rel="canonical" href="https://www.primelinkmktg.com/" />
+        <link rel="canonical" href="https://www.primelinkmkt.com/" />
         <meta property="og:title" content="Primelink Marketing Solution LLC | Global BPO & Marketing Agency" />
         <meta property="og:description" content="Institutional-grade integrated marketing and BPO solutions. 450+ campaigns, 98% client retention, 24/7 global support." />
-        <meta property="og:url" content="https://www.primelinkmktg.com/" />
+        <meta property="og:url" content="https://www.primelinkmkt.com/" />
       </Helmet>
 
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="flex flex-col w-full">
