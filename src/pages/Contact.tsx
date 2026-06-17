@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Helmet } from 'react-helmet-async';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, MapPin, Send } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -45,36 +45,18 @@ export default function Contact() {
 
                 <div className="flex gap-4">
                   <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0" aria-hidden="true">
-                    <Phone size={18} />
-                  </div>
-                  <div>
-                    <p className="font-bold text-sm mb-1">Call Us</p>
-                    <a href="tel:+18005550199" className="text-on-surface-variant text-sm hover:text-primary transition-colors block">+1 (800) 555-0199</a>
-                    <a href="tel:+13125550422" className="text-on-surface-variant text-sm hover:text-primary transition-colors block">+1 (312) 555-0422</a>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0" aria-hidden="true">
                     <MapPin size={18} />
                   </div>
                   <div>
                     <p className="font-bold text-sm mb-1">Headquarters</p>
                     <p className="text-on-surface-variant text-sm">
-                      1200 Enterprise Way, Suite 500<br />Chicago, IL 60601
+                      8 The Green, Suite A<br />Dover, DE 19901<br />Kent County, DE
                     </p>
                   </div>
                 </div>
               </address>
 
-              <div className="mt-8 pt-8 border-t border-outline-variant">
-                <p className="font-bold mb-3 uppercase tracking-widest text-xs opacity-60">Global Presence</p>
-                <div className="flex flex-wrap gap-2">
-                  {['London', 'Singapore', 'Dubai', 'Sydney'].map((city) => (
-                    <span key={city} className="px-3 py-1 bg-surface-container rounded-full text-xs">{city}</span>
-                  ))}
-                </div>
-              </div>
+
             </div>
           </div>
 

@@ -67,8 +67,9 @@ To exercise any of these rights, please contact us using the details provided be
     content: `If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:
 
 Primelink Marketing Solution LLC
-1200 Enterprise Way, Suite 500
-Chicago, IL 60601
+8 The Green, Suite A
+Dover, DE 19901
+Kent County, DE
 
 Email: inquiry@primelinkmkt.com
 Phone: +1 (800) 555-0199`,

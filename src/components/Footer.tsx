@@ -43,8 +43,8 @@ export default function Footer() {
         <div id="footer-contact">
           <div className="text-label-bold text-on-surface mb-4 uppercase tracking-wider text-sm">Contact</div>
           <address className="text-body-md text-on-surface-variant not-italic space-y-1">
-            <p>1200 Enterprise Way, Suite 500</p>
-            <p>Chicago, IL 60601</p>
+            <p>8 The Green, Suite A</p>
+            <p>Dover, DE 19901, Kent County, DE</p>
             <a href="mailto:inquiry@primelinkmkt.com" className="hover:text-primary transition-colors block mt-2">
               inquiry@primelinkmkt.com
             </a>
