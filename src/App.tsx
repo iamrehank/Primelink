@@ -3,24 +3,16 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { Suspense, lazy } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import { AnimatePresence } from 'motion/react';
 import { useLocation } from 'react-router-dom';
-
-const Home = lazy(() => import('./pages/Home'));
-const Services = lazy(() => import('./pages/Services'));
-const About = lazy(() => import('./pages/About'));
-const Contact = lazy(() => import('./pages/Contact'));
-const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'));
-
-const Spinner = () => (
-  <div className="flex items-center justify-center min-h-[60vh]">
-    <div className="w-8 h-8 border-4 border-primary/20 border-t-primary rounded-full animate-spin"></div>
-  </div>
-);
+import Home from './pages/Home';
+import Services from './pages/Services';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 export default function App() {
   const location = useLocation();
@@ -31,16 +23,14 @@ export default function App() {
 
       <main className="flex-grow">
         <AnimatePresence mode="wait">
-          <Suspense fallback={<Spinner />}>
-            <Routes location={location} key={location.pathname}>
-              <Route path="/" element={<Home />} />
-              <Route path="/services" element={<Services />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-              <Route path="*" element={<Navigate to="/" replace />} />
-            </Routes>
-          </Suspense>
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<Home />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
         </AnimatePresence>
       </main>
 
