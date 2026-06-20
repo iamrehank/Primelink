@@ -9,20 +9,17 @@ permissions:
   pages: write
   id-token: write
 
-env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
-  
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install dependencies
         run: npm install
@@ -31,9 +28,7 @@ jobs:
         run: npm run build
 
       - name: Setup Pages
-        uses: actions/configure-pages@v3
-        with:
-          enablement: true
+        uses: actions/configure-pages@v4
 
       - name: Upload build files
         uses: actions/upload-pages-artifact@v3
