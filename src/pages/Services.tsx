@@ -6,13 +6,13 @@ const services = [
   {
     icon: PhoneCall,
     title: 'Call Centre Support',
-    desc: 'Primebridge is a full-service Sales and Support provider catering to all our US-based clients. We deliver specialized services and sustainable business solutions, making outsourcing the ideal choice due to its cost-effectiveness and focus on digital services that attract premium and genuine customers nationwide.',
+    desc: 'Primelink is a full-service Sales and Support provider catering to all our US-based clients. We deliver specialized services and sustainable business solutions, making outsourcing the ideal choice due to its cost-effectiveness and focus on digital services that attract premium and genuine customers nationwide.',
     detail: 'Our clientele ranges from Fortune 500 companies to top-class service providers, all with an overall ranking above 9 out of 10. Our experienced team excels in driving calls towards your business, ensuring optimal results.',
   },
   {
     icon: HeadphonesIcon,
     title: 'Customer Service',
-    desc: 'Primebridge offers the best customer service to all our clients, as compliance in this industry is key and a valuable asset. We commit to maintaining a market quality of 90% and above with a dedicated team providing real-time feedback to all support staff.',
+    desc: 'Primelink offers the best customer service to all our clients, as compliance in this industry is key and a valuable asset. We commit to maintaining a market quality of 90% and above with a dedicated team providing real-time feedback to all support staff.',
     detail: 'We prioritize exceptional customer service as we understand how important it is for any company to understand their customers\' requirements. The customer\'s journey is essential to us, and their success is our overall organization\'s success.',
   },
   {
@@ -46,7 +46,7 @@ export default function Services() {
     <>
       <Helmet>
         <title>Our Services | Primelink Marketing Solution LLC</title>
-        <meta name="description" content="Primebridge delivers high-fidelity BPO and digital marketing strategies — Call Centre Support, Customer Service, PPC, Lead Generation, Social Media, and Inbound Traffic." />
+        <meta name="description" content="Primelink delivers high-fidelity BPO and digital marketing strategies — Call Centre Support, Customer Service, PPC, Lead Generation, Social Media, and Inbound Traffic." />
         <link rel="canonical" href="https://www.primelinkmkt.com/services" />
         <meta property="og:title" content="Our Services | Primelink Marketing Solution LLC" />
         <meta property="og:description" content="Strategic BPO and digital marketing solutions: Call Centre Support, Customer Service, PPC, Lead Generation, Social Media, and Inbound Traffic." />
@@ -76,7 +76,7 @@ export default function Services() {
               initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}
               className="text-white/75 text-base md:text-lg max-w-2xl mx-auto"
             >
-              Primebridge delivers high-fidelity business process outsourcing and digital marketing strategies tailored for institutional growth and operational excellence.
+              Primelink delivers high-fidelity business process outsourcing and digital marketing strategies tailored for institutional growth and operational excellence.
             </motion.p>
           </div>
         </section>
