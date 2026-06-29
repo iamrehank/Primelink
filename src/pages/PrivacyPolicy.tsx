@@ -72,7 +72,7 @@ Dover, DE 19901
 Kent County, DE
 
 Email: inquiry@primelinkmkt.com
-Phone: +1 (800) 555-0199`,
+Phone: +1 (302) 618-3669`,
   },
 ];
 

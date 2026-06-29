@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Helmet } from 'react-helmet-async';
-import { Mail, MapPin, Send } from 'lucide-react';
+import { Mail, MapPin, Phone, Send } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -52,6 +52,16 @@ export default function Contact() {
                     <p className="text-on-surface-variant text-sm">
                       8 The Green, Suite A<br />Dover, DE 19901<br />Kent County, DE
                     </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4">
+                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0" aria-hidden="true">
+                    <Phone size={18} />
+                  </div>
+                  <div>
+                    <p className="font-bold text-sm mb-1">United States</p>
+                    <a href="tel:+13026183669" className="text-on-surface-variant text-sm hover:text-primary transition-colors block">+1 (302) 618-3669</a>
                   </div>
                 </div>
               </address>

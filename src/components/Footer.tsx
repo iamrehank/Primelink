@@ -45,7 +45,10 @@ export default function Footer() {
           <address className="text-body-md text-on-surface-variant not-italic space-y-1">
             <p>8 The Green, Suite A</p>
             <p>Dover, DE 19901, Kent County, DE</p>
-            <a href="mailto:inquiry@primelinkmkt.com" className="hover:text-primary transition-colors block mt-2">
+            <a href="tel:+13026183669" className="hover:text-primary transition-colors block mt-2">
+              United States: +1 (302) 618-3669
+            </a>
+            <a href="mailto:inquiry@primelinkmkt.com" className="hover:text-primary transition-colors block">
               inquiry@primelinkmkt.com
             </a>
           </address>
